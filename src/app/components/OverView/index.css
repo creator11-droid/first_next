@@ -1,0 +1,26 @@
+.overview{
+  width:100%;
+  margin-top: 3.75rem;
+  display: flex;
+  padding: 1.188rem 2rem;
+  height: 4.75rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.063rem solid #ECEEEE;
+  h2{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #3d4c51;
+    text-align: center;
+    letter-spacing: -5%;
+  }
+  figure{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius:0.75rem ;
+    display: grid;
+    place-items: center;
+    border: 0.063rem solid #ECEEEE;
+  }
+}

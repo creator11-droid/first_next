@@ -1,0 +1,23 @@
+main{
+
+  display: flex;
+  overflow: hidden;
+  .content{
+    width: calc(100% - 4.5rem);
+
+    .grids{
+      padding: 1.5rem 2rem;
+      background: #F6F7F7;
+      height: calc(100% - 8.5rem);
+      display: grid;
+      grid-template-columns: repeat(3, 3fr);
+      gap: 1.375rem;
+      .single{
+        display: flex;
+        flex-direction: column;
+        gap:1.25rem;
+        height: 47.125rem;
+      }
+    }
+  }
+}

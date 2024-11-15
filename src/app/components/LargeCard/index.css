@@ -1,0 +1,17 @@
+.large_section{
+  padding: 1.5rem 1.25rem;
+  height: 32.625rem;
+  border-radius: 0.75rem;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0px 2px 20px 0px #2D242405;
+.large_body{
+  h2{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+    color:#717B80;
+    margin-top: 1.75rem;
+  }
+}
+}

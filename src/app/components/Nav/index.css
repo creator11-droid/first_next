@@ -1,0 +1,47 @@
+nav{
+  height: 100svh;
+  width: 4.5rem;
+  background:#fff;
+  border-right:0.063rem solid #ECEEEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.25rem 1rem;
+}
+nav .section{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+.holder{
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  .pic{
+    width: 100%;
+    object-fit: contain;
+  }
+}
+.special{
+  box-shadow: 0px 2px 4px 0px #2D242414;
+  
+}
+.blue{
+  background: #00A9de;
+}
+.round{
+  border-radius: 6.25rem;
+  background: #E6F6FC;
+  display: grid;
+  place-items: center;
+}
+}
+nav .first{
+  height: 16rem;
+  width: 2.5rem;
+}
+
+nav .second {
+  height: 6.88rem;
+  width: 2.5rem;
+}
